@@ -1,3 +1,5 @@
+//Sistema de venda e estoque
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
