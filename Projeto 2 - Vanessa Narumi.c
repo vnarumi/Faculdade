@@ -1,4 +1,4 @@
-//Sistema de venda e estoque
+//Sistema de venda e estoque (ATP-2)
 
 #include <stdio.h>
 #include <stdlib.h>
