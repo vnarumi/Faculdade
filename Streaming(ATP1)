@@ -354,7 +354,7 @@ int cadastra_contrato(Contrato* contratos, Cliente* clientes, int tam_contrato, 
 			}
 		}
 		for(i = 0; i < tam_clientes; i++){
-				if(clientes[i].cpf_cliente == cpf_cliente){ //verifica se o cpf dado bate com algum cliente já cadastrado
+				if(clientes[i].cpf_cliente == cpf_cliente){ //verifica se o cpf dado bate com algum cliente jÃ¡ cadastrado
 					contratos[tam_contrato].clientes.cpf_cliente = cpf_cliente; //se existir o cpf no vetor de cadastrdo vai receber o cpf existente.
 					strcpy(contratos[tam_contrato].clientes.nome_cliente, clientes[i].nome_cliente);
 					clientes[i].status = ATIVO;
@@ -498,7 +498,7 @@ int carrega_filme(Contrato* contratos, Filme* filmes, Cliente* clientes, PLANOS*
 		}
 	}while(validacao_num);
 	
-	//para a função 13//
+	//para a funÃ§Ã£o 13//
 	/*int num_genero=0, num_classificacao=0;
 	if(resposta == 0){
 		num_genero = numero;
