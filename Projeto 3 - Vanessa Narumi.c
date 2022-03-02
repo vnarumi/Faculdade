@@ -1,4 +1,4 @@
-//Detectar movimentos em frames de videos, usando arquivos RGB
+//Detectar movimentos em frames de videos, usando arquivos RGB (ATP-2)
 
 #include <stdio.h>
 #include <stdlib.h>
